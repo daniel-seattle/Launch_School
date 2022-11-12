@@ -1,0 +1,61 @@
+  Write out pseudo-code (both casual and formal) that does the following:
+
+  - a method that returns the sum of two integers
+      Begin program
+      Ask for integer 1
+      assign a varable the value of integer 1
+      Ask for integer 2
+      assign another variable the value of integer 2
+      sum the integers
+      return the sum value
+      End program
+
+  - a method that takes an array of strings, and returns a string that is all those strings concatenated together
+      Begin program
+      Accept array of strings
+      create an empty string variable
+      iterate over each member of the array and concatenate each value of the array to the variable
+      return the variable
+      End program
+
+  - a method that takes an array of integers, and returns a new array with every other element from the original array, starting with the first element. For instance:
+
+      everyOther([1,4,7,2,5]) # => [1,7,5]
+
+      Begin program
+      ask the user to input the array
+      assign the input to a variable
+      ask the user "even or odd?"
+      if user input "odd"
+        create an empty array
+        iterate over the array, checking whether the index+1 of each value is inside a ruby even integer class (no clue if that odd exists)
+        if the index+1 of that value is in the odd class, add it to the array created on line 30. #note we use index+1 because array indeces start at 0
+      return the array containing the values with odd index values.
+
+  - a method that determines the index of the 3rd occurrence of a given character in a string. For instance, if the given character is 'x' and the string is 'axbxcdxex', the method should return 6 (the index of the 3rd 'x'). If the given character does not occur at least 3 times, return nil.
+
+    Begin program
+    ask for the string to iterate over
+    assign the user-input to a string variable1
+    ask for the letter to search for within the string
+    assign that to a variable2
+    
+    create a counter variable
+    create an index_tracker variable
+    iterate over a string
+    if letterfromuserinputstring==variable2
+      counter += 1
+    end
+    index_tracker +=1
+    if counter == 3, break the loop
+
+
+  - a method that takes two arrays of numbers and returns the result of merging the arrays. The elements of the first array should become the elements at the even indexes of the returned array, while the elements of the second array should become the elements at the odd indexes. For instance:
+
+      merge([1, 2, 3], [4, 5, 6]) # => [1, 4, 2, 5, 3, 6]
+        
+        begin program
+        var1 = gets.chomp.to_array
+        var2 = gets.chomp.to_array
+
+        

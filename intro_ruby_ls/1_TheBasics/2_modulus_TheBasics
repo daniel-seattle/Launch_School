@@ -1,0 +1,5 @@
+n = 1234
+puts n / 1000
+puts n / 100 % 10
+puts n / 10 % 10
+puts n % 10
