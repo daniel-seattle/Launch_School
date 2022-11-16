@@ -13,7 +13,7 @@ number2 = Kernel.gets().chomp()
 
 loop do
   
-  Kernel.puts("What operation # would you like to perform? (result = #{number1} # #{number2}).  Input +, -, * or / below")
+  Kernel.puts("What operation # would you like to perform? (result = #{number1} # #{number2}).  Type one of these operations -> +, -, * or / and hit Enter")
 
   operation = Kernel.gets().chomp()
 
