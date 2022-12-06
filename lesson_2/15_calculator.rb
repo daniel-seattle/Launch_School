@@ -8,6 +8,7 @@
 require 'yaml'
 MESSAGES = YAML.load_file('15_calculator_messages.yml')
 
+#SEE LINE 40 for example use
 #puts MESSAGES.inspect
 
 def prompt(message)
@@ -37,7 +38,7 @@ loop do
   name = gets.chomp
 
   if name.empty?()
-    prompt("Please enter a name:")
+    prompt(MESSAGES['valid_name'])
   else
     break
   end
