@@ -1,7 +1,0 @@
-puts "please input 3 floats separated by spaces:"
-
-input = gets.chomp
-
-arr = input.split(" ")
-
-arr.each{|n| puts n.to_f ** 2}
