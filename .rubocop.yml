@@ -343,3 +343,7 @@ Style/InverseMethods:
 Style/ZeroLengthPredicate:
   Description: 'empty? instead of length == 0'
   Enabled: false
+
+# https://rubystyle.guide/#spaces-braces
+
+# For hash literals two styles are considered acceptable. The first variant is slightly more readable (and arguably more popular in the Ruby community in general). The second variant has the advantage of adding visual difference between block and hash literals. Whichever one you pick - apply it consistently.
